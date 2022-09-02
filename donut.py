@@ -14,10 +14,7 @@ K1 = screen_size * K2 * 3 / (8 * (R1 + R2))
 
 
 def render_frame(A: float, B: float) -> np.ndarray:
-    """
-    Returns a frame of the spinning 3D donut.
-    Based on the pseudocode from: https://www.a1k0n.net/2011/07/20/donut-math.html
-    """
+    
     cos_A = np.cos(A)
     sin_A = np.sin(A)
     cos_B = np.cos(B)
@@ -55,7 +52,7 @@ def render_frame(A: float, B: float) -> np.ndarray:
 
 
 def pprint(array: np.ndarray) -> None:
-    """Pretty print the frame."""
+    
     print(*[" ".join(row) for row in array], sep="\n")
 
 
