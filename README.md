@@ -6,4 +6,4 @@ pip3 install numpy
 
 ```
 
-![](Donut.jpg)
+![](Donut1.jpg)
