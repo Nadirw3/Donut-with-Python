@@ -1,5 +1,6 @@
 # Donut-with-Python
 Install numpy library
-'''
-Git
-'''
+
+```
+pip3 install numpy
+```
